@@ -13,13 +13,21 @@ A simple node app with mongodb.This app will help you to purchase T-Shirts from 
 
 ## Dependencies
 
-    bcrypt: ^5.0.0,
     body-parser: ^1.19.0,
-    cookie-parser: ^1.4.5,
+    cookie-parser: ^1.4.4,
     cors: ^2.8.5,
     dotenv: ^8.2.0,
     express: ^4.17.1,
-    express-jwt: ^5.3.3,
+    express-jwt: ^5.3.1,
+    express-validator: ^6.2.0,
+    formidable: ^1.2.1,
+    i: ^0.3.6,
     jsonwebtoken: ^8.5.1,
-    mongoose: ^5.9.19,
-    multer: ^1.4.2
+    lodash: ^4.17.15,
+    mongoose: ^5.7.7,
+    npm: ^6.13.0,
+    uuid: ^3.3.3
+
+## Setup
+
+create a .env file and here use your api keys or location of the database.
